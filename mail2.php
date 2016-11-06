@@ -10,5 +10,8 @@
     // Build the email content.
     $email_content = "$message";
 
-    mail($recipient, $subject, $email_content)
+    mail($recipient, $subject, $email_content);
+
+    http_redirect('index.html');
+
 ?>
