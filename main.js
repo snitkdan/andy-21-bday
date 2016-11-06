@@ -36,12 +36,14 @@ $(function(){
 
     $('#meal_btn').on('click', function(){
       event.preventDefault();
+      alert('You have used a Meal Token. Please notify Daniel of the meal that you want via Text');
       console.log(meals);
       database.child('Meals').set(meals - 1);
     })
 
     $('#dish_btn').on('click', function(){
       event.preventDefault();
+      alert('You have used a Dish Token. Daniel will complete the dishes upon returning.')
       console.log(dishes);
       database.child('Dishes').set(dishes - 1);
     })
