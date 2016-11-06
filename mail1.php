@@ -11,5 +11,4 @@
     $email_content = "$message";
 
     mail($recipient, $subject, $email_content)
-
 ?>

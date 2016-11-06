@@ -11,8 +11,4 @@
     $email_content = "$message";
 
     mail($recipient, $subject, $email_content);
-
-    echo('Your Dishes Token has been sent!');
-
-
 ?>
