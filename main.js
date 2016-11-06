@@ -35,11 +35,13 @@ $(function(){
 
 
     $('#meal_btn').on('click', function(){
+      event.preventDefault();
       console.log(meals);
       database.child('Meals').set(meals - 1);
     })
 
     $('#dish_btn').on('click', function(){
+      event.preventDefault();
       console.log(dishes);
       database.child('Dishes').set(dishes - 1);
     })
