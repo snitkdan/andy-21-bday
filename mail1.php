@@ -10,5 +10,7 @@
     // Build the email content.
     $email_content = "$message";
 
-    mail($recipient, $subject, $email_content)
+    mail($recipient, $subject, $email_content);
+
+    echo '<script type="text/javascript">window.location = "./index.html"</script>';
 ?>
