@@ -39,13 +39,16 @@
                 <i style="font-size: 10em" class="material-icons">restaurant</i>
             </div>
             <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Meal Token<i class="material-icons right">more_vert</i></span>
-                <br>
-                <button action='mail1.php' id="meal_btn" class="btn">Use</button>
-                <div class="right">
-                    <span>Remaining:  </span><span id="meal_num"></span>
-                </div>
+                <form action="mail1.php" method="post">
+                    <span class="card-title activator grey-text text-darken-4">Meal Token<i class="material-icons right">more_vert</i></span>
+                    <br>
+                    <button id="meal_btn" class="btn">Use</button>
+                    <div class="right">
+                        <span>Remaining:  </span><span id="meal_num"></span>
+                    </div>
+                </form>
             </div>
+
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Meal Token<i class="material-icons right">close</i></span>
                 <p>Use this token to gain 1 free meal</p>
@@ -56,12 +59,14 @@
                 <i style="font-size: 10em" class="material-icons">kitchen</i>
             </div>
             <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Dish Token<i class="material-icons right">more_vert</i></span>
-                <br>
-                <button action='mail2.php' id="dish_btn" class="btn">Use</button>
-                <div class="right">
-                    <span>Remaining:  </span><span id="dish_num"></span>
-                </div>
+                <form action="mail2.php" method="post">
+                    <span class="card-title activator grey-text text-darken-4">Dish Token<i class="material-icons right">more_vert</i></span>
+                    <br>
+                    <button action='mail2.php' id="dish_btn" class="btn">Use</button>
+                    <div class="right">
+                        <span>Remaining:  </span><span id="dish_num"></span>
+                    </div>
+                </form>
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">Dish Token<i class="material-icons right">close</i></span>
