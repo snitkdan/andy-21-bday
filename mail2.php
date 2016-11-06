@@ -8,7 +8,7 @@
     $message = 'Andy has used a Dish Token';
 
     // Build the email content.
-    $email_content .= "$message";
+    $email_content = "$message";
 
     mail($recipient, $subject, $email_content)
 ?>
