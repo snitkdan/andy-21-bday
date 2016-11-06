@@ -12,6 +12,4 @@
 
     mail($recipient, $subject, $email_content)
 
-    http_redirect('index.html');
-
 ?>

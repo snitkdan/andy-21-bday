@@ -12,6 +12,7 @@
 
     mail($recipient, $subject, $email_content);
 
-    http_redirect('index.html');
+    echo('Your Dishes Token has been sent!');
+
 
 ?>
