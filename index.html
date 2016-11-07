@@ -24,51 +24,53 @@
 </head>
 
 <body>
-    <nav class="center-align #006064 cyan darken-4">
-        <div class="nav-wrapper">
-            <i class="material-icons left">cake</i>
-            <a href="#" class="brand-logo center">Andy's 21st Birthday Tokens</a>
-            <i class="material-icons right">cake</i>
+    <div class="container">
+        <div class="row">
+            <nav class="center-align #006064 cyan darken-4">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo center">Andy's Tokens</a>
+                </div>
+            </nav>
         </div>
-    </nav>
-    <div class="row">
-        <div class="col s6 card">
-            <div class="card-image waves-effect waves-block waves-light">
-                <i style="font-size: 10em" class="material-icons">restaurant</i>
-            </div>
-            <div class="card-content">
-                <form action="mail1.php" method="post">
-                    <span class="card-title activator grey-text text-darken-4">Meal Token<i class="material-icons right">more_vert</i></span>
-                    <br>
-                    <button id="meal_btn" class="btn">Use</button>
-                    <div class="right">
-                        <span>Remaining:  </span><span id="meal_num"></span>
-                    </div>
-                </form>
-            </div>
+        <div class="row">
+            <div class="col s12 m6 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <i style="font-size: 10em" class="material-icons">restaurant</i>
+                </div>
+                <div class="card-content">
+                    <form action="mail1.php" method="post">
+                        <span class="card-title activator grey-text text-darken-4">Meal Token<i class="material-icons right">more_vert</i></span>
+                        <br>
+                        <button id="meal_btn" class="btn">Use</button>
+                        <div class="right">
+                            <span>Remaining:  </span><span id="meal_num"></span>
+                        </div>
+                    </form>
+                </div>
 
-            <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Meal Token<i class="material-icons right">close</i></span>
-                <p>Use this token to gain 1 free meal</p>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Meal Token<i class="material-icons right">close</i></span>
+                    <p>Use this token to gain 1 free meal</p>
+                </div>
             </div>
-        </div>
-        <div class="col s6 card">
-            <div class="card-image waves-effect waves-block waves-light">
-                <i style="font-size: 10em" class="material-icons">kitchen</i>
-            </div>
-            <div class="card-content">
-                <form action="mail2.php" method="post">
-                    <span class="card-title activator grey-text text-darken-4">Dish Token<i class="material-icons right">more_vert</i></span>
-                    <br>
-                    <button action='mail2.php' id="dish_btn" class="btn">Use</button>
-                    <div class="right">
-                        <span>Remaining:  </span><span id="dish_num"></span>
-                    </div>
-                </form>
-            </div>
-            <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Dish Token<i class="material-icons right">close</i></span>
-                <p>Use this token to have all active dishes washed</p>
+            <div class="col s12 m6 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <i style="font-size: 10em" class="material-icons">kitchen</i>
+                </div>
+                <div class="card-content">
+                    <form action="mail2.php" method="post">
+                        <span class="card-title activator grey-text text-darken-4">Dish Token<i class="material-icons right">more_vert</i></span>
+                        <br>
+                        <button action='mail2.php' id="dish_btn" class="btn">Use</button>
+                        <div class="right">
+                            <span>Remaining:  </span><span id="dish_num"></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Dish Token<i class="material-icons right">close</i></span>
+                    <p>Use this token to have all active dishes washed</p>
+                </div>
             </div>
         </div>
     </div>
